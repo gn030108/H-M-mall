@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login_button{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+  cursor: pointer;
+}
+.bar{
+  display: none;
+  position: absolute;
+  left: 3%;
+}
+.nav_section{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.menu_list{
+  display: flex;
+  list-style-type: none;
+}
+.menu_area{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.menu_list li{
+  padding: 10px;
+}
+.search_area{
+  position: absolute;
+  right: 1%;
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+}
+.search_area input {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  width: 150px;
+}
+.card_Box{
+  padding: 20px;
+  transition: all 0.2s linear;
+}
+.card_Box:hover{
+  transform: scale(1.1);
+}
+.card_Box img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+}
+.product_img{
+  display: flex;
+  justify-content: flex-end;
+}
+.detail_btn{
+  background-color: black;
   color: white;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  height: 30px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detail_text div{
+  margin: 10px ;
 }
