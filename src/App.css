@@ -1,31 +1,33 @@
-.login_button{
+.login_button {
   display: flex;
   justify-content: flex-end;
   margin: 20px;
   cursor: pointer;
 }
-.bar{
+.bar {
   display: none;
   position: absolute;
   left: 3%;
 }
-.nav_section{
+.nav_section {
   display: flex;
   justify-content: center;
 }
-.menu_list{
+.menu_list {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style-type: none;
 }
-.menu_area{
+.menu_area {
   display: flex;
   justify-content: center;
   position: relative;
 }
-.menu_list li{
+.menu_list li {
   padding: 10px;
 }
-.search_area{
+.search_area {
   position: absolute;
   right: 1%;
   padding-bottom: 3px;
@@ -37,11 +39,14 @@
   padding: 0 10px;
   width: 150px;
 }
-.card_Box{
+.card_Box {
   padding: 20px;
   transition: all 0.2s linear;
 }
-.card_Box:hover{
+.card_center {
+  width: fit-content;
+}
+.card_Box:hover {
   transform: scale(1.1);
 }
 .card_Box img {
@@ -49,11 +54,11 @@
   max-height: 100%;
   width: auto;
 }
-.product_img{
+.product_img {
   display: flex;
   justify-content: flex-end;
 }
-.detail_btn{
+.detail_btn {
   background-color: black;
   color: white;
   border: none;
@@ -61,6 +66,19 @@
   width: 100%;
   height: 30px;
 }
-.detail_text div{
-  margin: 10px ;
+.detail_text div {
+  margin: 10px;
+}
+
+@media all and (max-width: 991px) {
+  .search_area {
+    display: none;
+  }
+  .card_Box {
+    display: flex;
+    justify-content: center;
+  }
+  .card_Box:hover {
+    transform: scale(1.05);
+  }
 }
