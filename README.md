@@ -26,4 +26,4 @@
 
 - Demo : https://pwwhnm-mall.netlify.app
 
-<div align="center"><img src="https://github.com/user-attachments/assets/0600c51d-c7d9-4e45-9261-ec3437d78976" height="350"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/0600c51d-c7d9-4e45-9261-ec3437d78976" height="500"></div>
